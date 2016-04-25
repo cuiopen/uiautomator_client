@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestCase desc="" customno="">
+  <Step name="UI_InitStep" desc="程序初始化">
+  <ParamBinding name="PackageName" /> 
+  <ParamBinding name="Activity" /> 
+  <ParamBinding name="isClear" />
+  <ParamBinding name="waitTime" /> 
+  </Step> 
+  <Step name="UI_ClickStep" desc="点击控件">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="className" /> 
+  <ParamBinding name="text" /> 
+  <ParamBinding name="index" /> 
+  <ParamBinding name="countIndex"/> 
+  <ParamBinding name="PiontXY" /> 
+  <ParamBinding name="Advanced" />
+  <ParamBinding name="neglect" /> 
+  <ParamBinding name="waitTime" /> 
+  </Step>
+  <Step name="UI_EditStep" desc="输入控件">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="index" /> 
+  <ParamBinding name="countIndex" />
+  <ParamBinding name="inputText" /> 
+  <ParamBinding name="neglect" /> 
+  <ParamBinding name="waitTime" />  
+  </Step>
+  <Step name="UI_SwipStep" desc="滑动">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="className" /> 
+  <ParamBinding name="text" /> 
+  <ParamBinding name="index" /> 
+  <ParamBinding name="countIndex"/> 
+  <ParamBinding name="Direction" />
+  <ParamBinding name="PiontXY" />
+  <ParamBinding name="waitTime" />
+  </Step>
+  <Step name="UI_CheckStep" desc="检查点">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="className" /> 
+  <ParamBinding name="text" /> 
+  <ParamBinding name="index" /> 
+  <ParamBinding name="countIndex" />
+  <ParamBinding name="checkMode" /> 
+  <ParamBinding name="neglect" /> 
+  <ParamBinding name="waitTime" /> 
+  </Step>
+  <Step name="UI_KeyEvent" desc="按键">
+  <ParamBinding name="key" />
+  <ParamBinding name="waitTime" /> 
+  </Step>
+  <Step name="UI_Location" desc="滑动控件">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="className" /> 
+  <ParamBinding name="text"/> 
+  <ParamBinding name="index"/> 
+  <ParamBinding name="countIndex" /> 
+  <ParamBinding name="LocationId" /> 
+  <ParamBinding name="LocationDesc"/> 
+  <ParamBinding name="LocationClassName" /> 
+  <ParamBinding name="LocationText" /> 
+  <ParamBinding name="LocationIndex" /> 
+  <ParamBinding name="LocationcountIndex"/>
+  <ParamBinding name="neglect" /> 
+  <ParamBinding name="waitTime" /> 
+  </Step>
+  <Step name="UI_DropBox" desc="点击下拉框控件">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="className" /> 
+  <ParamBinding name="text" /> 
+  <ParamBinding name="index" /> 
+  <ParamBinding name="countIndex"/> 
+  <ParamBinding name="Advanced" />
+  <ParamBinding name="DropBoxText" />
+  <ParamBinding name="neglect" /> 
+  <ParamBinding name="waitTime" /> 
+  </Step>
+  <Step name="UI_EditOther" desc="输入控件">
+  <ParamBinding name="id" /> 
+  <ParamBinding name="desc" /> 
+  <ParamBinding name="className" /> 
+  <ParamBinding name="text" /> 
+  <ParamBinding name="index" /> 
+  <ParamBinding name="countIndex"/>  
+  <ParamBinding name="Advanced" />
+  <ParamBinding name="inputText" />
+  <ParamBinding name="neglect" /> 
+  <ParamBinding name="waitTime" /> 
+  </Step>
+</TestCase>
